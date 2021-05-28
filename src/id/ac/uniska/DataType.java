@@ -23,6 +23,7 @@ public class DataType {
         System.out.println("Nilai Abjad :" + nilaiAbjad);
         System.out.println("Tampan " + tampan);
 
-        JOptionPane.showMessageDialog(null, "Halo "+namaDepan+" "+namaTengah+" "+namaBelakang, "Ini Judul", JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(
+                null, "Halo "+namaDepan+" "+namaTengah+" "+namaBelakang, "Ini Judul", JOptionPane.WARNING_MESSAGE);
     }
 }
